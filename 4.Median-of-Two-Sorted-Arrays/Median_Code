@@ -1,0 +1,27 @@
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int[] A = nums1;//Large array
+        int[] B = nums2;//Small array
+        
+        int totalSize = A.length + B.length;
+        int half = floor(totalSize/2);
+        
+        //Determine Larger Array
+        if (A.length < B.length){
+            B = nums1;
+            A = nums2;
+        }
+        
+        Left_Index = 0;
+        Right_Index = A.length - 1;
+        //Even
+        if (totalSize%2 == 0){
+            return ()
+        }
+        //Odd
+        else{
+            
+        }
+        
+    }
+}
